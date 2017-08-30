@@ -36,9 +36,12 @@ body {
     text-align: center;
     font-size: 3em;
     text-transform: uppercase;
-    /*letter-spacing: 0.3em;*/
     border: 0.1em solid #333;
     padding: 0.3em;
+}
+
+.name > h1 > span:hover {
+    color: #E95420;
 }
 
 .name > h1 > span {
@@ -67,5 +70,6 @@ body {
 
 .profession > .link:hover,
 .profession > .link:focus {
+    color: #E95420;
     font-weight: bold;
 }
