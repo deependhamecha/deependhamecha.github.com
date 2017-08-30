@@ -1,5 +1,9 @@
-@media screen and (max-width: 1366) {
+@media screen and (max-width: 1366px) {
   .name {
-    width: 70%;
+    width: 80%;
+  }
+
+  .name > h1 {
+    font-size: 1.5em;
   }
 }
